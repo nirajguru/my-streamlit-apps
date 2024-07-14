@@ -1,1 +1,3 @@
-.streamlit/*
+# Don't checkin secrets
+src/.streamlit
+src/.streamlit/*
