@@ -1,5 +1,4 @@
-from ollama import chat
-from ollama import ChatResponse
+from ollama import ChatResponse, chat
 
 response: ChatResponse = chat(model='mistral:7b', messages=[
   {
